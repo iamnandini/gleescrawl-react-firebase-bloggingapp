@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Cedarville+Cursive&family=Courgette&family=Dancing+Script&family=Pacifico&family=Rubik:ital@1&family=Satisfy&display=swap');/* Hide both vertical and horizontal scrollbars */
+::-webkit-scrollbar {
+  display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background: rgb(245,204,193);
+background: linear-gradient(37deg, rgb(240, 240, 198) 0%, rgb(204, 243, 238) 100%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button,
+input {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  background-color: #279EFF;
   color: white;
+  border: none;
+  padding: 0.7rem 0.7rem;
+  outline: none;
+
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  max-width: 1140px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 1rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav {
+  margin:1rem 1rem 1rem auto;
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+a {
+  color: #279EFF;
+  text-decoration: none;
+  margin: 1rem ;
+  margin-top: 2rem;
+  font-size:1.7rem;
+}
+
+nav div{
+  margin: 4rem 1.5rem 4rem auto;
+}
+
+img{
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  height: 4rem;
 }

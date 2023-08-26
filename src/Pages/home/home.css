@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Cedarville+Cursive&family=Courgette&family=Dancing+Script:wght@400;600;700&family=Pacifico&family=Rubik:ital@1&family=Satisfy&display=swap');
+
+*{
+  color: black;
+}
+
+.font{
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  margin: 5rem;
+  font-weight:bolder;
+  color: rgb(1, 1, 91);
+  /* color: #0080ff; */
+
+
+}
+
+  .home-header {
+    text-align: center;
+  }
+  
+  .home-header h2 {
+    font-family: 'Dancing Script', cursive;
+    color:rgb(216, 123, 98) ;
+    font-size: 2rem;
+  }
+  
+  
+.homePage {
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .homePage .post {
+    width: 600px;
+    height: auto;
+    max-height: 600px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .post .postHeader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+.postHeader .title {
+  flex: 50%;
+}
+.postHeader .deletePost {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.deletePost button {
+
+  border: none;
+  color: black;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+  background-color: #67b8fa;
+}
+
+.post .postTextContainer {
+  word-wrap: break-word;
+  height: auto;
+  max-height: 400px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}

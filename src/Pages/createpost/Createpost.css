@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Cedarville+Cursive&family=Courgette&family=Dancing+Script&family=Pacifico&family=Rubik:ital@1&family=Satisfy&display=swap');/* Hide both vertical and horizontal scrollbars */
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+  .createPostPage {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: grid;
+    place-items: center;
+  }
+  
+  .cpContainer {
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color: #4791dc;
+    border-radius: 12px;
+    color: Black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cpContainer h1 {
+    color:white; 
+    text-align: center;
+  }
+  
+  .cpContainer label {
+    /* justify-content: center; */
+    font-size: 25px;
+    margin: auto;
+  }
+  .cpContainer .inputGp {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 149, 120);
+    border-radius: 5px;
+  }
+  
+  .inputGp input,
+  .inputGp textarea {
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+  }
+  
+  .inputGp input {
+    height: 40px;
+  }
+  .inputGp textarea {
+    width: 100%;
+    height: 254px;
+    resize: none; /* Disable resizing */
+    
+  }
+  
+  .cpContainer button {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  input,
+  textarea {
+    margin-top: 5px;
+  }
+  .cpContainer button {
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(232, 119, 88);
+  }
+  .cpContainer button:hover{
+    background-color: rgb(216, 123, 98);
+
+  }
