@@ -19,7 +19,7 @@ function Home({ isAuth }) {
     };
 
     getPosts();
-  }, []);
+  }, [deletePost]);
 
   return (
     <div className="homePage">

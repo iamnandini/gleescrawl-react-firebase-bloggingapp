@@ -3,14 +3,30 @@ import "./App.css";
 import Home from "./Pages/home/Home";
 import Login from "./Pages/login/Login";
 import Createpost from "./Pages/createpost/Createpost";
-import { useState } from "react";
-import { signOut } from "firebase/auth";
+import { useState,useEffect } from "react";
+import { signOut, onAuthStateChanged} from "firebase/auth";
 import { auth } from "./firebase-config";
 import Swal from "sweetalert2";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
   const navigate = useNavigate(); // Access the navigate function
+
+  //for keeping user logged in after refresh
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // User is signed in. Set your authentication state accordingly.
+        setIsAuth(true);
+      } else {
+        // User is signed out. Set your authentication state accordingly.
+        setIsAuth(false);
+      }
+    });
+  
+    return () => unsubscribe(); // Unsubscribe from the observer when the component unmounts.
+  }, []);
+
 
   const signUserOut = () => {
     signOut(auth).then(() => {
