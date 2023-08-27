@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Cedarville+Cursive&family=Courgette&family=Dancing+Script&family=Pacifico&family=Rubik:ital@1&family=Satisfy&display=swap');/* Hide both vertical and horizontal scrollbars */
+
 ::-webkit-scrollbar {
   display: none;
 }

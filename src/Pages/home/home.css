@@ -84,3 +84,28 @@
 h1{
   justify-content:space-around;
 }
+
+@media (max-width: 768px) {
+  /* Media query styles for smaller screens */
+  .font {
+    font-size: 3rem;
+    margin: 3rem;
+  }
+
+  /* Add more responsive styles as needed */
+}
+
+@media (max-width: 480px) {
+  /* Media query styles for even smaller screens */
+  .font {
+    font-size: 2rem;
+    margin: 2rem;
+  }
+
+  /* Add more responsive styles as needed */
+}
+
+
+
+
+
