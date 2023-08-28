@@ -15,6 +15,8 @@ GleeScrawl is a vibrant and creative platform built using React, Firebase, and F
   
 - 🔍 **Firestore Integration**: Real-time updates and seamless data management powered by Firestore.
 
+### Live App Link: [Click Here](https://gleescrawl-2269e.web.app/)  
+
 ## Installation
 
 To run GleeScrawl locally, follow these steps:
