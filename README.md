@@ -20,7 +20,7 @@ GleeScrawl is a vibrant and creative platform built using React, Firebase, and F
 
 To run GleeScrawl locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/yourusername/GleeScrawl.git`
+1. Clone the repository: `git clone https://github.com/iamnandini/gleescrawl-react-firebase-bloggingapp.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 
